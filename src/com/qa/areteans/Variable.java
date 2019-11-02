@@ -6,5 +6,13 @@ public class Variable {
 	public final static String ffdriverpath="E:\\Areteans_Selenium\\Driver exe files\\geckodriver.exe";
 	public final static String excel="E:\\Areteans_Selenium\\Areteans_Practice\\src\\TestData.xlsx";
 	public final static String propertiesfilepath= "E:\\Areteans_Selenium\\Areteans_Practice\\src\\Config.properties";
+	
+	public static void main(String[] args) {
+		test();
+	}
+	
+	public static void test() {
+		System.out.println("test");
+	}
 
 }
